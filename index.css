@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+nav .sub-nav1{
+  display: flex;
+  width: 100%;
+
+}
+nav .sub-nav1 .right-icon{
+  margin-left: 30px;
+}
