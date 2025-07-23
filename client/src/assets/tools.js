@@ -252,3 +252,21 @@ export const dummyProducts = [
     inStock: true,
   },
 ];
+
+export const features = [
+  {
+    icon: tecno_pop10,
+    title: "Fastest Delivery",
+    description: "items delivered under 1 hour."
+  },
+  {
+    icon: tecno_pop10,
+    title: "Best quality",
+    description: "We are here to give you the best."
+  },
+  {
+    icon: tecno_pop10,
+    title: "Affordable Price",
+    description: "Get the best high quality items at unbeatable prices."
+  }
+]
