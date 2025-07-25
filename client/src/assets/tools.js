@@ -270,3 +270,44 @@ export const features = [
     description: "Get the best high quality items at unbeatable prices."
   }
 ]
+
+
+export const footerLink = [
+  {
+    title: "Quick link",
+    links: [
+      {text: "Home", url: "#"},
+       {text: "Best Sellers", url: "#"},
+       {text: " Offers & Deals", url: "#"},
+       {text: "Contact Us", url: "#"},
+       {text: "FAQs", url: "#"},
+    ]
+  },
+
+      
+  {
+    title: "Need Help?",
+    links: [
+      {text: "Delivery information", url: "#"},
+       {text: "Return & Refund Policy", url: "#"},
+       {text: " Payment Methods", url: "#"},
+       {text: "Track Your Order", url: "#"},
+       {text: "Contact Us", url: "#"},
+    ]
+  },
+
+    {
+    title: "Follow Us",
+    links: [
+      {text: "Instagram", url: "#"},
+       {text: "Twitter", url: "#"},
+       {text: " Facebook", url: "#"},
+       {text: "YouTube", url: "#"},
+       
+    ]
+  },
+
+
+
+ 
+]
