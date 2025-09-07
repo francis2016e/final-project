@@ -44,13 +44,25 @@ const Navbar = () => {
                 {!user ? ( <button onClick={()=> setShowUserLogin(true)} className="cursor-pointer px-8 py-2 bg-indigo-500 hover:bg-primary-dull transition text-white rounded-full">
                     Login
                 </button> ) : (
-                    <div className='relative group'>
-                    <img src={tools.user_solid} className='w-7 ml-13' />
-                    <ul className='hidden group-hover:block absolute top-10 right-0 bg-white shadow border border-gray-200 py-2.5 w-30 rounded-md text-sm z-40'>
-                        <li onClick={()=>navigate("my-orders")} className='p-1.5 pl-3 hover:bg-blue-200 cursor-pointer'>My orders</li>
-                        <li onClick={logout} className='p-1.5 pl-3 hover:bg-blue-200 cursor-pointer'>Logout</li>
-                    </ul>
-                    </div>
+                  <div className="relative group">
+  <img src={tools.user_solid} className="w-7 ml-12 cursor-pointer bg-blue-400 p-1 rounded-full" />
+
+  <ul className="hidden group-hover:block absolute top-8 right-0 bg-white shadow border border-gray-200 py-4 w-32 rounded-md text-sm z-40">
+    <li
+      onClick={() => navigate("my-orders")}
+      className="p-1.5 pl-3 hover:bg-blue-200 cursor-pointer"
+    >
+      My orders
+    </li>
+    <li
+      onClick={logout}
+      className="p-1.5 pl-3 hover:bg-blue-200 cursor-pointer"
+    >
+      Logout
+    </li>
+  </ul>
+</div>
+
                 )}
             </div>
 
